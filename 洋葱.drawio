@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T15:44:22.717Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="NVhA9qNWiZgdgHjzkLn6" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-08T06:16:46.358Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="uh_PS4cNhmHpeC80Gn8c" version="20.5.1" type="github">
   <diagram id="3228e29e-7158-1315-38df-8450db1d8a1d" name="Page-1">
-    <mxGraphModel dx="1113" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,46 +16,46 @@
         <mxCell id="21597" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;gradientColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#AE4132;align=center;opacity=30;" parent="1" vertex="1">
           <mxGeometry x="354.5" y="247.5" width="310" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21639" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="21597" target="21597">
+        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21639" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="21597" target="21597" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="469.5000000000002" y="380.75" as="sourcePoint" />
             <mxPoint x="582.9999999999997" y="380.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21640" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="21597" target="21597">
+        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21640" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="21597" target="21597" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="526.25" y="437.5" as="sourcePoint" />
             <mxPoint x="526.25" y="324.00000000000006" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21641" value="DAO层&lt;br&gt;Persistence持久化层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21641" value="DAO层&lt;br&gt;Persistence持久化层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="380" y="332.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21642" value="Intergration层&lt;br&gt;防腐层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21642" value="Intergration层&lt;br&gt;防腐层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="534.5" y="332.5" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21643" value="Common层&lt;br&gt;(枚举、常量)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21643" value="Common层&lt;br&gt;(枚举、常量)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="432.5" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21644" value="配置层&lt;br&gt;properties" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21644" value="配置层&lt;br&gt;properties" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="544.5" y="432.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21654" value="Domain层，将某些可复用的底层逻辑放在domain层，增强内聚" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="424.13" y="204" width="175.87" height="30" as="geometry" />
+        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21654" value="Domain层，领域层，包含domainservice&lt;br&gt;将可复用的内部逻辑放在domain层，增强内聚" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="390" y="217.5" width="245.87" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21656" value="Processor层，就是服务层&lt;br&gt;处理整个逻辑的流程。&lt;br&gt;包含工厂相关逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21656" value="application层，应用层。&lt;br&gt;处理业务逻辑，编排对内部服务的调用顺序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="450" y="134" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21657" value="业务层，包含Controller,&lt;br&gt;xxl-job，message" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="450" y="64" width="142.93" height="30.87" as="geometry" />
+        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21657" value="Controller,&lt;br&gt;xxl-job，message" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="438.04" y="70" width="142.93" height="30.87" as="geometry" />
         </mxCell>
-        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21658" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.084;exitY=0.364;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="21596">
+        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21658" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.084;exitY=0.364;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="21596" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="380" as="sourcePoint" />
             <mxPoint x="420" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21659" value="可直接调用" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="YEzI8hjUJ_jsWgPvrRDo-21658">
+        <mxCell id="YEzI8hjUJ_jsWgPvrRDo-21659" value="可直接调用" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="YEzI8hjUJ_jsWgPvrRDo-21658" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
